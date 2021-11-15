@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D4804F5C-A94A-47E6-96A1-E0FB0F166C09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D4AB08B4-07A5-4402-8869-DD81D9846651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{85DBCF8E-C864-4959-A420-C317676D5975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NURV.Core.DomainEntities", "src\Core\NURV.Core.DomainEntities\NURV.Core.DomainEntities.csproj", "{1A42FAC9-B3C5-4FD7-928A-403D87E87BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NURV.Core.RepositoriesInterface", "src\Core\NURV.Core.RepositoriesInterface\NURV.Core.RepositoriesInterface.csproj", "{3D64FAD3-5A4F-4464-8434-7109266F140F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NURV.Core.Business", "src\Core\NURV.Core.Business\NURV.Core.Business.csproj", "{65D16478-5DD3-4A0B-8BAB-AB2771B8EA4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{42D20068-AD99-4917-9A32-48828739F75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NURV.DAL.RepoSQLSrv", "src\DAL\NURV.DAL.RepoSQLSrv\NURV.DAL.RepoSQLSrv.csproj", "{9A4EBF3B-C0C5-441F-9953-8D5B3F4F91B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A42FAC9-B3C5-4FD7-928A-403D87E87BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A42FAC9-B3C5-4FD7-928A-403D87E87BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A42FAC9-B3C5-4FD7-928A-403D87E87BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A42FAC9-B3C5-4FD7-928A-403D87E87BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D64FAD3-5A4F-4464-8434-7109266F140F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D64FAD3-5A4F-4464-8434-7109266F140F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D64FAD3-5A4F-4464-8434-7109266F140F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D64FAD3-5A4F-4464-8434-7109266F140F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D16478-5DD3-4A0B-8BAB-AB2771B8EA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D16478-5DD3-4A0B-8BAB-AB2771B8EA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D16478-5DD3-4A0B-8BAB-AB2771B8EA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D16478-5DD3-4A0B-8BAB-AB2771B8EA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4EBF3B-C0C5-441F-9953-8D5B3F4F91B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4EBF3B-C0C5-441F-9953-8D5B3F4F91B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4EBF3B-C0C5-441F-9953-8D5B3F4F91B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4EBF3B-C0C5-441F-9953-8D5B3F4F91B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A42FAC9-B3C5-4FD7-928A-403D87E87BD7} = {D4804F5C-A94A-47E6-96A1-E0FB0F166C09}
+		{3D64FAD3-5A4F-4464-8434-7109266F140F} = {D4804F5C-A94A-47E6-96A1-E0FB0F166C09}
+		{65D16478-5DD3-4A0B-8BAB-AB2771B8EA4F} = {D4804F5C-A94A-47E6-96A1-E0FB0F166C09}
+		{9A4EBF3B-C0C5-441F-9953-8D5B3F4F91B4} = {42D20068-AD99-4917-9A32-48828739F75C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99DAE50E-EA45-46C4-8F87-DE51A17EBEF1}
+	EndGlobalSection
+EndGlobal
