@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\NURV.Core.DomainEntities\NURV.Core.DomainEntities.csproj" />
+    <ProjectReference Include="..\..\Core\NURV.Core.RepositoriesInterface\NURV.Core.RepositoriesInterface.csproj" />
+  </ItemGroup>
+
 </Project>
