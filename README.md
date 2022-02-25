@@ -23,7 +23,7 @@
 - create a generic repository, and add queries to retrieve data from the source, map the data from data source to a business entity, and persist changes in the business entity to the data source
 - The project should have no reference to outside project (e.g. EF, ASP.NET core, MVC, DI) or any other project in the solution except the domain entities project.
 - The methods in the repositories should be simple CRUD methods that will just make a wrapper over the DB. 
-
+awdf asdf sadf sadf sadf sd
 ## Services
 - this layer is used to communicate between the UI layer and repository layer
 - Holds the business logic
